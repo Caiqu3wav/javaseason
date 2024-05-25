@@ -1,6 +1,6 @@
 package projects;
 
-public class phoneNumber {
+class phoneNumber {
     public static String createPhoneNumber(int[] numbers) {
         if (numbers.length < 10){
             System.out.println("Need to be 10 numbers");
