@@ -1,13 +1,22 @@
 package collage;
+import java.util.Scanner;
 
 public class Tipos {
     public static void main(String[] args) {
-        String nome = "Caique";
-        String cpf = "46790329993-40";
-        String sexo = "Masculino";
-        double salario = 1980.56;
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Nome: " + nome + "\nCPF: " + cpf + "\nsexo: " + sexo + "\nsalario: " + salario);
+        int a, b, c = 0;
+        double delta = 0;
+        double x1, x2 = 0;
+
+        System.out.println("Entre com o valor de A: ");
+        a = scanner.nextInt();
+
+        if (a == 0) {
+            throw new IllegalArgumentException("A igual a zero, input inválido");
+        }
+        System.out.println("");
+
     }
 
 
