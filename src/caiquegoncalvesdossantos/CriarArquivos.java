@@ -19,7 +19,7 @@ public class CriarArquivos {
             File selectedPath = chooser.getSelectedFile();
             System.out.println("Diretório selecionado: " + selectedPath.getAbsolutePath());
         
-            for (int i = 29; i <= 62; i++) {
+            for (int i = 4; i <= 32; i++) {
             String nomeArquivo = "Ex" + i + ".java";
             File arquivo = new File(selectedPath, nomeArquivo);
             try {
